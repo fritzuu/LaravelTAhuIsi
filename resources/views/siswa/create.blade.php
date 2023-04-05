@@ -3,7 +3,7 @@
 
 
 @section('konten')
-<h1 class="mb-2">Tambah Data Siswa</h1>
+<h1 class="mb-3">Tambah Data Siswa</h1>
 <form method="post" action="/siswa" enctype="multipart/form-data">
     @csrf
     <div class="mb-3">
